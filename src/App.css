@@ -1,11 +1,59 @@
 body {
+  background-image: url("./assets/bg.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
   background-color: #490200;
   height: 100%;
+  font-family: 'Teko', sans-serif;
 }
 
 .app{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.555);
   height: 100vh;
+}
+
+.spidermanIMG0{
+  position: fixed;
+  height: 400px;
+  top: 30px;
+  left: 30px;
+}
+
+.spidermanIMG1{
+  position: fixed;
+  height: 400px;
+  bottom: 30px;
+  left: 30px;
+}
+
+.spidermanIMG2{
+  position: fixed;
+  height: 400px;
+  top: 30px;
+  right: 30px;
+}
+
+.spidermanIMG3{
+  position: fixed;
+  height: 400px;
+  bottom: 30px;
+  right: 30px;
+}
+
+.venomIMG{
+  position: fixed;
+  z-index: 0;
+}
+
+.header{
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  top: 130px;
+  font-size: 30px;
+  color: white;
+  text-shadow: 8px 8px 11px #720400be;
 }

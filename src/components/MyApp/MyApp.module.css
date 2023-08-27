@@ -2,13 +2,23 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(82, 82, 82);
-    width: 600px;
+    width: fit-content;
     padding: 15px;
 }
 
 .screen{
+    display: flex;
     background-color: rgb(180, 180, 180);
     text-align: center;
+    justify-content: center;
+    gap: 50px;
     margin-left: 10px;
     margin-right: 10px;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img{
+    height: 900px;
 }
